@@ -7,3 +7,5 @@ Holynation here, I am setting up the required configuration based on what Mr Bam
 ---- config
 ----- database
 ----- autoload
+
+if not necessary,please kindly remove
