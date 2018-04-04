@@ -1,4 +1,4 @@
-<?php $base=base_url('assets/') ?>
+<?php $base=base_url() ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,15 +8,15 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href=" <?php echo $base ?>lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href=" <?php echo $base ?>assets/lib/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>assets/lib/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>assets/lib/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo $base ?>css/AdminLTE.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>assets/css/AdminLTE.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/iCheck/square/blue.css">
+  <link rel="stylesheet" href="<?php echo $base ?>assets/lib/iCheck/square/blue.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,15 +26,20 @@
   <![endif]-->
 
   <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
-  <div class="login-logo">
-    <a href="../../index2.html">RMS</a>
-  </div>
+<!--  <div class="login-logo">-->
+<!--      <a href="--><?php //echo $base ?><!--"><b style="color: #fff;">RMS</b></a>-->
+<!--  </div>-->
   <!-- /.login-logo -->
   <div class="login-box-body">
+
+      <div class="login-logo">
+          <a href="<?php echo $base ?>"><b style="color: #000;font-family: 'Audiowide', cursive;">RMS</b></a>
+      </div>
     <p class="login-box-msg">Sign in to start your session</p>
 
     <form action="<?php echo base_url('auth/web') ?>" method="post">
@@ -71,11 +76,11 @@
 <!-- /.login-box -->
 
 <!-- jQuery 3 -->
-<script src="<?php echo $base ?>lib/jquery/jquery.min.js"></script>
+<script src="<?php echo $base ?>assets/lib/jquery/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="<?php echo $base ?>lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo $base ?>assets/lib/bootstrap/js/bootstrap.min.js"></script>
 <!-- iCheck -->
-<script src="<?php echo $base ?>lib/iCheck/icheck.min.js"></script>
+<script src="<?php echo $base ?>assets/lib/iCheck/icheck.min.js"></script>
 <script>
   $(function () {
     $('input').iCheck({
