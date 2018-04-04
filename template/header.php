@@ -1,4 +1,6 @@
-<?php $base=base_url('assets/') ?>
+<?php //$base=base_url('assets/') 
+  $base = 'http://localhost/recent/RMS/assets/';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,20 +16,16 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="<?php echo $base ?>lib/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>css/skins/_all-skins.min.css">
   <!-- Morris chart -->
   <link rel="stylesheet" href="<?php echo $base ?>lib/morris.js/morris.css">
-  <!-- jvectormap -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/jvectormap/jquery-jvectormap.css">
   <!-- Date Picker -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="<?php echo $base ?>lib/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib//bootstrap-daterangepicker/daterangepicker.css">
-  <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="<?php echo $base ?>lib//bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+  <!-- <link rel="stylesheet" href="<?php echo $base ?>lib/bootstrap-daterangepicker/daterangepicker.css"> -->
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
