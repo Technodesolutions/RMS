@@ -8,6 +8,7 @@ class Auth extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
+		$this->load->helper('string');
 	}
 
 	function web(){
@@ -91,6 +92,7 @@ function sendPost($url,$post,&$errorMessage,$returnResult=false){
 	function mobile(){
 
 	}
+	
 	function logout(){
 		$link ='';
 		$base = base_url();
