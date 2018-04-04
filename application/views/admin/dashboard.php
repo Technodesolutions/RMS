@@ -3,7 +3,7 @@
 // include "template/sidebar.php";
 // for testing
 include "header.php";
-include "sidebar.php";
+include "sidebar_admin.php";
  ?>
  <!-- the breadcrump for pages that needed it -->
  <!-- Content Wrapper. Contains page content -->
